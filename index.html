@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>واجبات الصف</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+  واجبات <span id="classNameDisplay">...</span>
+  <div id="todayDateDisplay"></div>
+</header>
+
+<main>
+  <button id="backToTodayBtn" title="الرجوع إلى واجبات اليوم">رجوع إلى واجبات اليوم</button>
+  <div id="subjectsList" class="subjects-list"></div>
+
+  <div id="questionsList" class="questions-list">
+    <div class="questions-header">
+      <h2 id="questionsTitle">...</h2>
+      <button class="back-btn" id="backToSubjectsBtn">رجوع</button>
+    </div>
+    <div id="questionsContainer"></div>
+  </div>
+</main>
+
+<div id="imageOverlay" class="overlay">
+  <button id="closeOverlayBtn" class="close-btn" aria-label="إغلاق">×</button>
+  <img id="overlayImage" src="" alt="صورة السؤال" />
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
