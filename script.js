@@ -1,4 +1,4 @@
-const url = "https://raw.githubusercontent.com/ahmad1212as/Reeh-Balak/main/information/as.json";
+const url = "https://raw.githubusercontent.com/reeh-balak-admin/Website/main/eighth-grade/control.json";
 
 const classNameDisplay = document.getElementById('classNameDisplay');
 const subjectsList = document.getElementById('subjectsList');
